@@ -1,7 +1,10 @@
 // ==UserScript==
 // @name         SlitherIO Autonick
-// @namespace    http://tampermonkey.net/
-// @version      1.0.0
+// @namespace    https://github.com/netDevils-Official/Slithernick
+// @homepage     https://github.com/netDevils-Official/Slithernick
+// @updateURL    https://raw.githubusercontent.com/netDevils-Official/Slithernick/main/autonick.txt
+// @supportURL   https://discord.gg/vcSdVrfUYs
+// @version      1.0.1
 // @description  This sets a random nickname for you.
 // @author       Minecodes, B374, netDevil13
 // @match        http://slither.io/
