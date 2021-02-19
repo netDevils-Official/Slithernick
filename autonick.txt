@@ -1,0 +1,16 @@
+// ==UserScript==
+// @name         SlitherIO Autonick
+// @namespace    http://tampermonkey.net/
+// @version      1.0.0
+// @description  This sets a random nickname for you.
+// @author       Minecodes, B374, netDevil13
+// @match        http://slither.io/
+// @grant        none
+// ==/UserScript==
+
+(function() {
+    'use strict';
+var nicks = ["Gitify", "XDD", "Miner3000", "Rankify", "Pi", "PineapplePi", "Aulus Vatinius", "Viria Pollio"];
+var nick = document.getElementById("nick");
+nick.value = nicks[Math.floor((Math.random() * nicks.length))]
+})();
