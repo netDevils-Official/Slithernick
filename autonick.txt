@@ -13,7 +13,7 @@
 
 (function() {
     'use strict';
-var nicks = ["Gitify", "XDD", "Miner3000", "Rankify", "Pi", "PineapplePi", "Aulus Vatinius", "Viria Pollio"];
+var nicks = ["Gitify", "XDD", "Miner3000", "Rankify", "Pi", "PineapplePi", "Aulus Vatinius", "Viria Pollio", "Hiratsu", "Sakukino", "Koroma", "Kashiba"];
 var nick = document.getElementById("nick");
 nick.value = nicks[Math.floor((Math.random() * nicks.length))]
 })();
